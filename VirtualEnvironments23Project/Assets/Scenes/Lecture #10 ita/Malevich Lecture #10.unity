@@ -1542,6 +1542,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &923761174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8527074058992526481, guid: be469fe085840bf42b95d784e011f5fa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1526888406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070467483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2813,6 +2819,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1870146720}
   - component: {fileID: 1870146719}
+  - component: {fileID: 1870146722}
+  - component: {fileID: 1870146723}
   m_Layer: 0
   m_Name: ww
   m_TagString: Untagged
@@ -2881,13 +2889,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870146718}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101.4, y: 21.42, z: 0.7430689}
+  m_LocalPosition: {x: 101.47, y: 21.49, z: 0.7430689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1870146722
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870146718}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!114 &1870146723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870146718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452ff28c184f5ff4fa3e2f5738ea2115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyInt: 13
+  MyVector3: {x: 0.67, y: 0.21, z: 0.69}
+  MyColor: {r: 0.5188679, g: 0.2773822, b: 0.2773822, a: 0}
+  MyGameObject: {fileID: 923761174}
+  MySprite: {fileID: 523753254}
 --- !u!4 &1909225067 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3537327600823069327, guid: 4892cc3ff2cbd394ca37f2780f9e6390,
